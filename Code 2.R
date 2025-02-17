@@ -28,6 +28,7 @@ library(readxl) # reading in Excel files
 ggplot(data = ci_np, aes(x = year, y = visitors)) +
   geom_line()
 
+
 # We are going to be working through quite a few variations, so store the
 # first line as object "gg_base" so that we don’t need to retype it each time:
 
@@ -58,7 +59,7 @@ gg_base +
 # We return to the scatterplot:
 
 gg_base + 
-  geom_point(col = "purple", pch = 17, size = 4, alpha = 0.5)
+  geom_point(col = "purple", pch = 24, size = 4, alpha = 0.5)
 
 gg_base + 
   geom_point(aes(size = visitors, col = visitors), alpha = 0.5)  
