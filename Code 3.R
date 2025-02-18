@@ -58,7 +58,7 @@ lobsters %>%
 lobsters %>%
   group_by(site, year) %>%
   summarise(count_by_siteyear =  n())
-
+  
 
 # summarise multiple variables
 
