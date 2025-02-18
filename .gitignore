@@ -5,3 +5,4 @@
 data/
 data\
 *.untracked
+dont_trackuntracked
